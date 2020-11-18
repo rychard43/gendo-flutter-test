@@ -33,12 +33,12 @@ class RepoCard extends StatelessWidget {
                     children: [
                       Text(
                         "$nameUser /",
-                        style: TextStyle(fontSize: 17, color: Colors.blue),
+                        style: TextStyle(fontSize: 20, color: Colors.blue),
                       ),
                       Text(
                         " $title",
                         style: TextStyle(
-                            fontSize: 17,
+                            fontSize: 20,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       ),
@@ -50,7 +50,7 @@ class RepoCard extends StatelessWidget {
                   child: Text(
                     " $title",
                     style: TextStyle(
-                        fontSize: 17,
+                        fontSize: 20,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   ),
@@ -68,7 +68,7 @@ class RepoCard extends StatelessWidget {
                   ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 8),
+            padding: const EdgeInsets.only(left: 8, top: 8),
             child: Row(
               children: [
                 cardType == RepoCardType.STARRED
