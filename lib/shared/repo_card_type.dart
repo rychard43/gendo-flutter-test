@@ -1,0 +1,1 @@
+enum RepoCardType { STARRED, REPOS}
